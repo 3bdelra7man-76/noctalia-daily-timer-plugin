@@ -1,0 +1,11 @@
+{
+  "tasks": [],
+  "currentDate": "",
+  "count": 0,
+  "completedCount": 0,
+  "activeTaskId": "",
+  "showCompleted": true,
+  "showBackground": true,
+  "isExpanded": false,
+  "autoPauseOtherTasks": true
+}

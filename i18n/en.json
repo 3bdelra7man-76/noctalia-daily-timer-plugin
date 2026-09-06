@@ -1,0 +1,83 @@
+{
+  "actions": {
+    "widget_settings": "Settings"
+  },
+  "bar_widget": {
+    "progress": "{completed} of {total} done",
+    "empty": "No daily tasks"
+  },
+  "control_center": {
+    "tooltip": "{completed} of {total} daily tasks done",
+    "empty": "Daily Task Timer"
+  },
+  "desktop_widget": {
+    "header_title": "Daily Tasks",
+    "items_count": "{completed} of {total}",
+    "empty_state": "No daily tasks"
+  },
+  "main": {
+    "added_task": "Added task",
+    "completed_task": "Task completed",
+    "paused_task": "Task paused",
+    "removed_task": "Task removed",
+    "reset_task": "Task reset",
+    "reset_today": "Today reset",
+    "started_task": "Task started",
+    "updated_task": "Task updated",
+    "error_task_not_found": "Task not found",
+    "error_title_empty": "Task title cannot be empty",
+    "error_invalid_duration": "Duration must be at least one minute",
+    "error_create_failed": "Failed to create task",
+    "error_update_failed": "Failed to update task",
+    "error_remove_failed": "Failed to remove task"
+  },
+  "panel": {
+    "header": {
+      "title": "Daily Task Timer",
+      "reset_today_button": "Reset Today"
+    },
+    "add_task": {
+      "title_placeholder": "Task name",
+      "hours_placeholder": "h",
+      "minutes_placeholder": "min",
+      "add_button": "Add"
+    },
+    "empty_state": {
+      "message": "No daily tasks yet"
+    },
+    "task_item": {
+      "completed": "Done",
+      "pending": "Pending",
+      "running": "Running",
+      "start_button_tooltip": "Start",
+      "pause_button_tooltip": "Pause",
+      "reset_button_tooltip": "Reset",
+      "edit_button_tooltip": "Edit",
+      "delete_button_tooltip": "Delete"
+    },
+    "edit_task": {
+      "title": "Edit Task",
+      "save_button": "Save",
+      "cancel_button": "Cancel"
+    }
+  },
+  "settings": {
+    "show_completed": {
+      "label": "Show Finished Tasks",
+      "description": "Display tasks that already reached their timer target today"
+    },
+    "background_color": {
+      "label": "Desktop Background",
+      "description": "Show the desktop widget background"
+    },
+    "auto_pause_other_tasks": {
+      "label": "One Timer At A Time",
+      "description": "Starting a task pauses any other running task"
+    },
+    "reset_today": {
+      "label": "Reset Today",
+      "description": "Set every task back to zero for the current day",
+      "button": "Reset"
+    }
+  }
+}

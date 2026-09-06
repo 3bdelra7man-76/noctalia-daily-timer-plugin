@@ -1,0 +1,34 @@
+{
+  "id": "daily-task-timer",
+  "name": "Daily Task Timer",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.7.1",
+  "author": "phantom",
+  "license": "MIT",
+  "description": "Daily recurring timed tasks for Noctalia Shell.",
+  "tags": ["Bar", "Desktop", "Panel", "Productivity", "Timer"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "BarWidget.qml",
+    "desktopWidget": "DesktopWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml",
+    "controlCenterWidget": "ControlCenterWidget.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "tasks": [],
+      "currentDate": "",
+      "count": 0,
+      "completedCount": 0,
+      "activeTaskId": "",
+      "showCompleted": true,
+      "showBackground": true,
+      "isExpanded": false,
+      "autoPauseOtherTasks": true
+    }
+  }
+}
